@@ -137,7 +137,7 @@ Why?
 
 
 
-#### Links change to Wikitext (`[[...]]` is the new `[...]`)
+#### Links change to Wikipedia Markup (`[[...]]` is the new `[...]`)
 
 Why?
 
