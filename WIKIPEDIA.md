@@ -1,4 +1,10 @@
-# Wikipedia Markup 
+
+
+
+# Wikipedia Markup Cheatsheet for Text with Instructions (.texi)
+
+
+What's news? What's different?
 
 
 Notes:  :white_check_mark: no changes.  :x: changes
@@ -49,19 +55,19 @@ __bold text__ or
 
 ```
 * Wikipedia
-* Encyclopedie
+* Encyclopédie
 ```
 
 **Additions**. Alternative Syntax
 
 ```
 - Wikipedia
-- Encyclopedie
+- Encyclopédie
 ```
 
 ```
 + Wikipedia
-+ Encyclopedie
++ Encyclopédie
 ```
 
 
