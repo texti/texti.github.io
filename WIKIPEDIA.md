@@ -176,7 +176,7 @@ Link to another website
 ```
 
 - DISCUSS - make separator `|` optional - why? why not ???
-- DISCUSS - keep url= version - why? why not???
+- DISCUSS - keep `url=` version - why? why not???
 
 
 ```
