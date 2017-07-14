@@ -6,6 +6,7 @@ Notes:  :white_check_mark: no changes.  :x: deleted.
 
 ## Text Formatting
 
+
 ### :white_check_mark: Italic / Emphasis
 
 ```
@@ -24,8 +25,8 @@ _italic text_ or
 ### :white_check_mark:  Bold / Strong Emphasis
 
 ```
-''bold text'' or
-''strongly emphasized text''
+'''bold text''' or
+'''strongly emphasized text'''
 ```
 
 **Additions**. Alternative Syntax
@@ -33,6 +34,37 @@ _italic text_ or
 ```
 __bold text__ or
 **strongly emphasized text**
+```
+
+### :white_check_mark:  Italic + Bold
+
+```
+'''''italic bold text''''' or
+'''''strongly emphasized emphasized text'''''
+```
+
+
+### :white_check_mark: Headings
+
+```
+=Heading 1 Text=
+==Heading 2 Text==
+===Heading 3 Text===
+====Heading 4 Text====
+=====Heading 5 Text=====
+======Heading 6 Text======
+```
+
+**Additions**. Alternative Syntax for Heading 1 and Heading 1
+
+```
+Heading 1
+=========
+```
+
+```
+Heading 2
+---------
 ```
 
 
@@ -44,7 +76,7 @@ __bold text__ or
 [[Denis Diderot]]
 ```
 
-Internal Link with Differnt Text
+Internal Link with Different Text
 
 ```
 [[Denis Diderot|Diderot]]
