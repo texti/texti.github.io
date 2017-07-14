@@ -15,8 +15,8 @@ Is the English language frozen? Is the Python or Ruby scripting
 language frozen?
 Is the Hypertext markup language (HTML) frozen?
 
-Let's welcome the the living language.
-Let's evolve Markdown. And let's evolve Wikitext.
+Let's welcome the living language.
+Let's evolve Markdown. And let's evolve Wikipedia Markup.
 
 Use what works and don't use what doesn't work. Have we learned anything
 in the last 10+ years? Anyone? Anything?
@@ -31,10 +31,10 @@ The obvious ;-) a silly name, that is, text in 2020 is more than 7 or 8-bit ASCI
 
 More serious - AsciiDoc is a new language.
 Text with Instructions (.texti) is NOT a new text language -
-it evolves Markdown and Wikitext, that is,
-the majority (lets say 70%) is still Markdown
+it evolves Markdown and Wikipedia Markup, that is,
+the majority (lets say 70%) is still Markdown or Wikipedia Markup
 but with (lets say 20%) deletions (e.g. `..` for hard-line breaks, `![]()` for image links, etc.)
-and (lets say 10%) changes (e.g. headings with `=`, for example).
+and (lets say 10%) changes (e.g. headings start with `=`, for example).
 
 
 
@@ -46,18 +46,18 @@ in the last 10+ years? Anyone? Anything?
 Use what works and don't use what doesn't work.
 
 
-### Let's Welcome Wikitext (Wikipedia's Markup Language
+### Let's Welcome Wikipedia Markup
 
-A dream... One day Wikitext and Markdown evolved into
+A dream... One day Wikipedia Markup and Markdown evolved into
 one text language. Imagine writing your Wikipedia articles
-in the same text language as your notes.
+in the same text language as your notes or your next book.
 
-A start let's change the headings to Wikitext headings
+A start let's change the headings to Wikipedia markup headings
 `=` is the `#`
-to make Wikitext feel at home.
+to make Wikipedians feel at home.
 
-Next let's change links to Wikitext links
-`[[...]]` is the new `[...]`
+Next let's change page links to Wikipedia links
+`[[...]]` is the new `[...]` and `[...]` gets only used for "external" links.
 
 
 
@@ -66,8 +66,7 @@ Next let's change links to Wikitext links
 The name is too clever. Markdown is a play on markup. Up and down.
 Markdown is markup done right, get it? Sale! Sale! 70 % Markdown! Every Markup Tag Must Go!
 
-The file extension is .markdown or .mkdwn or .md.
-Again too cryptic.
+The file extension is `.markdown`, `.mdown`, `.mkdn` or `.md`. Again too cryptic.
 
 Why Text with Instructions?
 
@@ -75,9 +74,9 @@ The idea is that it's just text, text, text. No clever name that
 hides the obvious it's just text. You have a text box?
 Use text with instructions. It's just text.
 
-The ideal file extension is .txt or .text.
+The ideal file extension is `.txt` or `.text`.
 More realistic and pragmatic to avoid confusion with other text formats
-use .texti or .txti as the "official" Text with Instructions reserved file
+use `.texti` or `.txti` as the "official" Text with Instructions file
 extensions.
 
 Again the idea is that it's just text.
@@ -102,13 +101,14 @@ Deletions. Yes. Deletions. Changes. Additions.
 
 
 
+
 ## Evolutions
 
 
 ### Changes
 
 
-#### Headings marker change to Wikitext (`=` is the new `#`)
+#### Headings marker change to Wikipedia Markup (`=` is the new `#`)
 
 ```
 = Heading 1 =
@@ -120,17 +120,17 @@ Deletions. Yes. Deletions. Changes. Additions.
 
 or
 
-= Heading 1
-== Heading 2
-=== Heading 3
-==== Heading 4
-===== Heading 5
-====== Heading 6
+=Heading 1
+==Heading 2
+===Heading 3
+====Heading 4
+=====Heading 5
+======Heading 6
 ```
 
 Why?
 
-1. Let's welcome the Wikipedia. Use the headings convention from Wikitext.
+1. Let's welcome the Wikipedians. Use the headings convention from Wikipedia Markup.
 
 2. `#` is the universal comment (in the unix world). Let's use the same comment sign
    for markdown and meta data blocks (in YAML, JSON 1.1, etc.)
@@ -144,6 +144,7 @@ Why?
 Markdown has no links between Markdown pages.
 
 
+
 #### "Generic" Inline Block
 
 ```
@@ -154,6 +155,7 @@ Markdown has no links between Markdown pages.
 The "old" quotation block is now a "generic" inline block.
 
 
+DRAFT - WORK-IN-PROGESS
 
 
 
@@ -167,8 +169,9 @@ The "old" quotation block is now a "generic" inline block.
 ```
 
 A human language without comments - is that human or possible?
-Let's welcome `#` for single-line comments.
+Let's welcome `#` (+space) for single-line comments.
 
+Note: The comment marker is `#` must be followed by a space, that is, `#1 or #77` is just regular text.
 
 
 
@@ -199,6 +202,8 @@ You can start a document with a meta data (front matter) block. Example:
 
 To be done - like in HTML - generic marker for a block (div) and inline run (span).
 
+DRAFT - WORK-IN-PROGESS
+
 
 
 
@@ -211,7 +216,13 @@ To be done - like in HTML - generic marker for a block (div) and inline run (spa
 ![](i/cover.png)
 ```
 
-Use the new link syntax.
+Use the new template syntax from Wikipedia markup:
+
+```
+{{ File:cover.png }}
+```
+
+DRAFT - WORK-IN-PROGESS
 
 
 
