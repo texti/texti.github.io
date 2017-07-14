@@ -219,7 +219,9 @@ DRAFT - WORK-IN-PROGESS
 Use the new template syntax from Wikipedia markup:
 
 ```
+{% raw %} 
 {{ File:cover.png }}
+{% endraw %}
 ```
 
 DRAFT - WORK-IN-PROGESS
@@ -238,9 +240,6 @@ ale!
 Use the new hard-line break syntax.
 
 
-
-
-## Meta
 
 
 ## Meta
