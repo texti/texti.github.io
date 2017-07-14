@@ -72,6 +72,8 @@ Heading 2
 
 ### :white_check_mark:  Internal 
 
+Internal Link (to another page)
+
 ```
 [[Denis Diderot]]
 ```
@@ -81,4 +83,39 @@ Internal Link with Different Text
 ```
 [[Denis Diderot|Diderot]]
 ```
+
+
+### :white_check_mark: External 
+
+Link to another website
+
+```
+[http://loc.gov]
+[http://loc.gov Library of Congress Website]
+```
+
+**Additions**.  Alternative Syntax
+
+```
+[Library of Congress Website | http://loc.gov]
+[Library of Congress Website  url=http://loc.gov]
+```
+
+-- make separator | optional - why? why not ???
+-- keep url= version - why? why not???
+
+```
+[Library of Congress Website](http://loc.gov)
+```
+
+Reference style:
+
+```
+[Library of Congress Website][1]
+
+...
+
+[1]: http://loc.gov
+```
+
 
