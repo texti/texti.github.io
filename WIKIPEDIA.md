@@ -1,7 +1,7 @@
 
 
 
-# Wikipedia Markup Cheatsheet for Text with Instructions (.texi)
+# Wikipedia Markup Cheatsheet for Text with Instructions (.texti)
 
 
 What's news? What's different?
@@ -144,7 +144,7 @@ Heading 2
 
 ## Links
 
-### :white_check_mark:  Internal 
+### :white_check_mark:  Internal `[[..]]`
 
 Internal Link (to another page)
 
@@ -159,7 +159,7 @@ Internal Link with Different Text
 ```
 
 
-### :white_check_mark: External 
+### :white_check_mark: External  `[..]`
 
 Link to another website
 
