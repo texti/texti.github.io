@@ -175,7 +175,7 @@ Link to another website
 [Library of Congress Website  url=http://loc.gov]
 ```
 
-- DISCUSS - make separator | optional - why? why not ???
+- DISCUSS - make separator `|` optional - why? why not ???
 - DISCUSS - keep url= version - why? why not???
 
 
