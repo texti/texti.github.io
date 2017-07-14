@@ -1,6 +1,8 @@
 # Wikipedia Markup 
 
 
+Notes:  :white_check_mark: no changes.  :x: deleted.
+
 
 ## Text Formatting
 
@@ -34,6 +36,17 @@ __bold text__ or
 ```
 
 
+## Links
 
+### :white_check_mark:  Internal 
 
+```
+[[Denis Diderot]]
+```
+
+Internal Link with Differnt Text
+
+```
+[[Denis Diderot|Diderot]]
+```
 
