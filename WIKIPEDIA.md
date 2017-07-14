@@ -99,9 +99,9 @@ or
 1. B - Cézimbra
 ```
 
-Note: The number can get used just a placeholder as before.
+Note: Use the same number to use the number as placeholder as before (will get auto-numbered).
 
-or use roman numberals or the alphabet etc.
+Or use roman numberals, the alphabet, etc.
 
 ```
  I. A - Azymites
