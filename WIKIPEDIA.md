@@ -1,7 +1,7 @@
 # Wikipedia Markup 
 
 
-Notes:  :white_check_mark: no changes.  :x: deleted.
+Notes:  :white_check_mark: no changes.  :x: changes
 
 
 ## Text Formatting
@@ -42,6 +42,74 @@ __bold text__ or
 '''''italic bold text''''' or
 '''''strongly emphasized emphasized text'''''
 ```
+
+
+
+### :white_check_mark: Bulleted List
+
+```
+* Wikipedia
+* Encyclopedie
+```
+
+**Additions**. Alternative Syntax
+
+```
+- Wikipedia
+- Encyclopedie
+```
+
+```
++ Wikipedia
++ Encyclopedie
+```
+
+
+###  :x: Numbered List
+
+:x: Old syntax
+
+```
+# A - Azymites
+# B - Cézimbra
+```
+
+Why?
+
+`#` (+space) is reserved / used for comments e.g. `# this is a comment`. 
+
+
+:white_check_mark: New syntax:
+
+```
+1. A - Azymites
+2. B - Cézimbra
+```
+
+or
+
+```
+1. A - Azymites
+1. B - Cézimbra
+```
+
+Note: The number can get used just a placeholder as before.
+
+or use roman numberals or the alphabet etc.
+
+```
+ I. A - Azymites
+II. B - Cézimbra
+```
+
+```
+a. A - Azymites
+b. B - Cézimbra
+```
+
+
+
+
 
 
 ### :white_check_mark: Headings
@@ -101,8 +169,9 @@ Link to another website
 [Library of Congress Website  url=http://loc.gov]
 ```
 
--- make separator | optional - why? why not ???
--- keep url= version - why? why not???
+- DISCUSS - make separator | optional - why? why not ???
+- DISCUSS - keep url= version - why? why not???
+
 
 ```
 [Library of Congress Website](http://loc.gov)
