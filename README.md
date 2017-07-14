@@ -218,7 +218,7 @@ DRAFT - WORK-IN-PROGESS
 
 Use the new template syntax from Wikipedia markup:
 
-```
+``` text
 {% raw %} 
 {{ File:cover.png }}
 {% endraw %}
@@ -230,7 +230,7 @@ DRAFT - WORK-IN-PROGESS
 
 #### Hard-line Breaks with End-of-Line Space Space (••\n)
 
-```
+``` 
 How doth the little crocodile••
 Improve his shining tail,••
 And pour the waters of the Nile••
