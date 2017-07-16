@@ -20,7 +20,7 @@
 
 ### What's different?
 
-_Text with Instructions (.texti) Compared to Wikipedia Markup)_
+_Text with Instructions (.texti) Compared to Wikipedia Markup_
 
 
 **(Inline) References**
@@ -45,7 +45,7 @@ _Text with Instructions (.texti) Compared to Wikipedia Markup)_
 {% endraw %}
 ```
 
-Note: The number (`^1`) is "symbolic", that is, it's a placeholder - you can write
+Note: The number e.g. `^1` is "symbolic", that is, it's a placeholder - you can write
 `^1` `^1` `^1`
 as often as you like (when generated references will get auto-numbered).
 
