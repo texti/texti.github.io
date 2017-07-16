@@ -8,12 +8,12 @@
 
 .texti Source:
 
-- [samples/Markup_language.texti](Markup_language.texti)
+- [samples/Markup_language.texti.txt](Markup_language.texti.txt)
 
 (Auto-)Generated Formats:
 
 - [samples/Markup_language.md.txt](Markup_language.md.txt) - Markdown
-- [samples/Markup_language.latex](Markup_language.latex) - LaTeX
+- [samples/Markup_language.latex.txt](Markup_language.latex.txt) - LaTeX
 - [samples/Markup_language.html](Markup_language.html) - Hypertext Markup Language (HTML)
 
 
