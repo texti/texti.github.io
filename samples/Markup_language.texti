@@ -1,0 +1,111 @@
+= Markup language =
+
+A '''markup language''' is a system for [[annotation|annotating]] a [[document]]
+in a way that is [[Syntax (logic)|syntactically distinguishable]] from the
+text.[^1|{{MerriamWebsterDictionary|markup language}}] The idea and terminology
+evolved from the "marking up" of paper manuscripts, i.e., the revision
+instructions by editors, traditionally written with a [[blue pencil (editing)|blue pencil]]
+on authors' [[manuscript]]s.
+
+In [[digital media]] this "blue pencil instruction text" was replaced by
+[[HTML element|tags]], that is, instructions are expressed directly by tags or
+"instruction text encapsulated by tags." Examples include typesetting instructions
+such as those found in [[troff]], [[TeX]] and [[LaTeX]], or structural markers
+such as [[Extensible Markup Language|XML]] tags. Markup instructs the software
+that displays the text to carry out appropriate actions, but is omitted from
+the version of the text that users see.
+
+Some markup languages, such as the widely used [[HTML]], have pre-defined
+[[presentation semantics]]-meaning that their specification prescribes how
+to present the [[structured data]]. Others, such as XML, do not have
+them and are general purpose.
+
+[[Hypertext|HyperText]] Markup Language (HTML), one of the document formats
+of the [[World Wide Web]], is an instance of [[Standard Generalized Markup Language|SGML]]
+(though, strictly, it does not comply with all the rules of SGML),
+and follows many of the markup conventions used in the publishing industry
+in the communication of printed work between authors, editors, and printers.
+
+== Types ==
+There are three main general categories of electronic markup:[^2|
+{{cite journal|date=November 1987|title=Markup systems and the future of scholarly text processing|journal=[[Communications of the ACM]]|publisher=[[Association for Computing Machinery|ACM]]|volume=30|issue=11|pages=933–947|doi=10.1145/32206.32209|url=http://xml.coverpages.org/coombs.html|first1=James H.|last1=Coombs|first2=Allen H. |last2=Renear|first3=Steven J. |last3=DeRose}}][^3|
+{{cite web|last=Bray|first=Tim|authorlink=Tim Bray|url=http://www.tbray.org/ongoing/When/200x/2003/04/09/SemanticMarkup#p-1|title=On Semantics and Markup, Taxonomy of Markup|website=www.tbray.org/ongoing|date=9 April 2003|access-date=9 July 2015}}]
+
+Presentational markup
+:The kind of markup used by traditional word-processing systems: binary codes embedded within
+document text that produce the [[WYSIWYG]] effect. Such markup is usually hidden from human
+users, even authors or editors.
+
+Procedural markup
+:Markup is embedded in text and provides instructions for programs that are to process the text.
+Well-known examples include [[troff]], [[TeX]], and [[PostScript]]. It is expected that the
+processor will run through the text from beginning to end, following the instructions as
+encountered. Text with such markup is often edited with the markup visible and directly
+manipulated by the author. Popular procedural-markup systems usually include programming
+constructs, so macros or subroutines can be defined and invoked by name.
+
+Descriptive markup
+:Markup is used to label parts of the document rather than to provide specific instructions as to
+how they should be processed. Well-known examples include [[LaTeX]], [[HTML]], and [[XML]]. The
+objective is to decouple the inherent structure of the document from any particular treatment or
+rendition of it. Such markup is often described as "semantic". An example of descriptive markup
+would be HTML's `<cite>` tag, which is used to label a citation. Descriptive markup—sometimes
+called ''logical markup'' or ''conceptual markup''-encourages authors to write in a way that
+describes the material conceptually, rather than visually.[^4|Michael Downes.
+[http://www.ams.org/notices/200211/comm-downes.pdf "TEX and LATEX 2e"]]
+
+There is considerable blurring of the lines between the types of markup.
+In modern word-processing systems, presentational markup is often saved in
+descriptive-markup-oriented systems such as [[XML]], and then processed procedurally
+by implementations. The programming constructs in procedural-markup systems such as
+[[TeX]] may be used to create higher-level markup systems that are more descriptive,
+such as [[LaTeX]].
+
+In recent years, a number of small and largely unstandardized markup languages
+have been developed to allow authors to create formatted text via web browsers,
+for use in [[wiki]]s and web forums. These are sometimes called [[lightweight markup language]]s.
+[[Markdown]] or the markup language used by [[Wikipedia]] are examples of such [[wiki markup]].
+
+==History==
+===Etymology and origin===
+The term ''markup'' is derived from the traditional publishing practice of ''"marking up"''
+a [[manuscript]], which involves adding handwritten annotations in the form of conventional
+symbolic [[Printing|printer]]'s instructions in the margins and text of a paper manuscript or printed.
+it is computer jargon used in coding [[Proofreading|proof]]. For centuries, this task was done
+primarily by skilled typographers known as "markup men"[^5|Allan Woods, ''Modern Newspaper Production'' (New York: Harper & Row, 1963), 85; Stewart Harral, ''Profitable Public Relations for Newspapers'' (Ann Arbor: J.W. Edwards, 1957), 76; and ''Chiarella v. United States'', {{ussc|445|222|1980}}.]
+or "copy markers"[^6|''From the Notebooks of H.J.H & D.H.A on Composition'', Kingsport Press Inc., undated (1960s).]
+who marked up text to indicate what [[typeface]], style, and size should be applied to each part, and then passed the manuscript to others for [[typesetting]] by hand. Markup was also commonly applied by editors, proofreaders, publishers, and graphic designers, and indeed by document authors.
+
+===GenCode===
+The first well-known public presentation of markup languages in computer text processing was made
+by [[William W. Tunnicliffe]] at a conference in 1967, although he preferred to call it ''generic coding.''
+It can be seen as a response to the emergence of programs such as [[RUNOFF]] that each used their
+own control notations, often specific to the target typesetting device. In the 1970s, Tunnicliffe
+led the development of a standard called GenCode for the publishing industry and later was the
+first chair of the [[International Organization for Standardization]] committee that created
+[[SGML]], the first standard descriptive markup language. Book designer Stanley Rice published
+speculation along similar lines in 1970.[^7|Rice, Stanley. "Editorial Text Structures (with some relations to information structures and format controls in computerized composition)." American National Standards Institute, March 17, 1970.]
+[[Brian Reid (computer scientist)|Brian Reid]], in his 1980 dissertation at
+[[Carnegie Mellon University]], developed the theory and a working implementation
+of descriptive markup in actual use.
+
+
+...
+
+
+
+---
+See also:
+  - Comparison of document markup languages
+  - Curl (programming language)
+  - List of markup languages
+  - Markdown
+  - ReStructuredText
+  - Programming language
+  - Style language
+
+Categories:
+  - Markup languages
+  - Formal languages
+  - American inventions
+---
