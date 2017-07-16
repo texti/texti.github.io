@@ -5,13 +5,13 @@
 
 .texti Source:
 
-- [samples/Markup_language.texti](samples/Markup_language.texti)
+- [samples/Markup_language.texti](Markup_language.texti)
 
 (Auto-)Generated Formats:
 
-- [samples/Markup_language.md.txt](samples/Markup_language.md.txt) - Markdown
-- [samples/Markup_language.latex](samples/Markup_language.latex) - LaTeX
-- [samples/Markup_language.html](samples/Markup_language.html) - Hypertext Markup Language (HTML)
+- [samples/Markup_language.md.txt](Markup_language.md.txt) - Markdown
+- [samples/Markup_language.latex](Markup_language.latex) - LaTeX
+- [samples/Markup_language.html](Markup_language.html) - Hypertext Markup Language (HTML)
 
 
 (Source: [Markup language @ Wikipedia](https://en.wikipedia.org/wiki/Markup_language),
@@ -26,6 +26,7 @@ _Text with Instructions (.texti) Compared to Wikipedia Markup)_
 **(Inline) References**
 
 ``` text
+{% raw %}
 [^1|{{MerriamWebsterDictionary|markup language}}]
 
 -or-
@@ -41,6 +42,7 @@ _Text with Instructions (.texti) Compared to Wikipedia Markup)_
   |website=www.tbray.org/ongoing
   |date=9 April 2003
   |access-date=9 July 2015}}]
+{% endraw %}
 ```
 
 Note: The number (`^1`) is "symbolic", that is, it's a placeholder - you can write
@@ -51,6 +53,7 @@ as often as you like (when generated references will get auto-numbered).
 vs
 
 ``` text
+{% raw %}
 <ref>{{MerriamWebsterDictionary|markup language}}</ref>
 
 -or-
@@ -65,6 +68,7 @@ vs
 |website=www.tbray.org/ongoing
 |date=9 April 2003
 |access-date=9 July 2015}}</ref>
+{% endraw %}
 ```
 
 

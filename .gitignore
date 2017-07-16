@@ -1,0 +1,9 @@
+### ignore jekyll build
+
+_site/
+
+
+### ignore gemfiles
+
+Gemfile
+Gemfile.lock
