@@ -215,5 +215,5 @@ On every golden scale!
 ``` 
 
 Note: Inside a verbatim (preformatted) block with triple quotes (`"""`) or (`'''`)
-all formatting (e.g. bold, italics, lists, code, etc.) works as expected.
+all formatting (e.g. bold, italics, lists, code, footnotes, etc.) works as expected.
 
