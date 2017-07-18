@@ -48,7 +48,7 @@ This is __no longer bold__ or text with __strong emphasis__.
 
 Why?
 
-Double underscore is reserved for underline.
+:white_check_mark: Double underscore is reserved for underline.
 
 ```
 This is now __underlined__.
@@ -67,7 +67,7 @@ This is now __underlined__.
 ###### Heading 6 ######
 ```
 
-Headings marker change to Wikipedia Markup (`=` is the new `#`) e.g.:
+:white_check_mark: Headings marker change to Wikipedia Markup (`=` is the new `#`) e.g.:
 
 ```
 =Heading 1
@@ -216,13 +216,4 @@ On every golden scale!
 
 Note: Inside a verbatim (preformatted) block with triple quotes (`"""`) or (`'''`)
 all formatting (e.g. bold, italics, lists, code, etc.) works as expected.
-
-
-
-
-
-
-
-
-
 
