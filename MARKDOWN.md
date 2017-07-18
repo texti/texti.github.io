@@ -18,7 +18,7 @@ Strict (Enterprise-y) Version
 
 What's news? What's different?
 
-Notes:  :white_check_mark: no changes.  :x: changes
+Notes:  :white_check_mark: Works.  :x: old syntax (Do NOT use)
 
 
 ## Text Formatting
