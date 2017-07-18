@@ -23,7 +23,7 @@ print_hello_world    <!-  just regular text
 
 Why?
 
-Intra-word use of underscore (_) is quit common for replacing spaces in wikipedia, tags, scripts, numbers, etc.
+Intra-word use of underscore (_) is quite common for replacing spaces in wikipedia, tags, scripts, numbers, etc.
 
 ###  Bold / Emphasis
 
@@ -130,6 +130,86 @@ If you do NOT want to use blank lines after headings use `=` for headings e.g.:
 ```
 
 Note: Using a space between the heading and `=` is optional. Wikipedia markup uses the "compact" version without any spaces e.g. `=Markup language=` or `==Type==` etc.
+
+
+
+#### "Generic" Inline Block
+
+```
+> Note:
+>
+```
+
+The "old" quotation block is now a "generic" inline block e.g. in html think `div` with a class instead of `blockquote` tag.
+
+
+DRAFT - WORK-IN-PROGESS
+
+
+#### Image Links
+
+:x: Old syntax (Do NOT use):
+
+```
+![](i/cover.png)
+```
+
+:white_check_mark: Use the new template syntax from Wikipedia markup:
+
+``` text
+{% raw %} 
+{{ fig|cover.png }}
+
+or
+
+{{ img|cover.png }}
+{% endraw %}
+```
+
+DRAFT - WORK-IN-PROGESS
+
+
+
+#### Hard-line Breaks with End-of-Line Space Space (••\n)
+
+:x: Old syntax (Do NOT use):
+
+``` 
+How doth the little crocodile••
+Improve his shining tail,••
+And pour the waters of the Nile••
+On every golden scale!
+```
+
+:white_check_mark: Use the new hard-line break syntax (use `//` or `\\`):
+
+``` 
+How doth the little crocodile      //
+Improve his shining tail,          //
+And pour the waters of the Nile    //
+On every golden scale!
+```
+
+Or use the new verbatim (preformatted) block with triple quotes (`"""`) or (`'''`):
+
+``` 
+"""
+How doth the little crocodile
+Improve his shining tail,
+And pour the waters of the Nile
+On every golden scale!
+"""
+``` 
+
+Note: Inside a verbatim (preformatted) block with triple quotes (`"""`) or (`'''`)
+all formatting (e.g. bold, italics, lists, code, etc.) works as expected.
+
+
+
+
+
+
+
 
 
 
