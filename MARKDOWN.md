@@ -3,6 +3,19 @@
 _Fixing (Evolving) Markdown - Deletions. Yes. Deletions. Changes. Additons._
 
 
+Design Principles
+
+- NEVER FORGET - IT'S DESIGNED FOR WRITING BY HUMANS
+  - Offer alternatives.  There's more than one way to do it. Sometimes even more alternatives is the better way e.g. see the new links alternatives - id first? yes, id second? yes - why not?, without `()` why not?, etc.).
+
+
+Strict (Enterprise-y) Version
+
+- For Python fans. There's only one way to do it. Offer a "strict" profile or recommendations on usage. FUTURE (NOT IMPORTANT)
+
+
+
+
 What's news? What's different?
 
 Notes:  :white_check_mark: no changes.  :x: changes
