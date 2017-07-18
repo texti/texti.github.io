@@ -142,7 +142,7 @@ Headings are headings. Period.
 
 You CANNOT use headings inside lists or code blocks etc. A heading always MUST start on a new line. Period.
 
- :x:  Old (questionable) syntax:
+ :x:  Old syntax (Do NOT use):
 
 ```
 - ### Big ###
@@ -155,7 +155,7 @@ or
 ```
 Paragraph
 Heading
-----
+----               <-- heading 2 marker, please!?
 Paragraph
 ```
 
@@ -171,6 +171,8 @@ Paragraph
 
 
 Easy rule in Text with Instructions (.texti). Setext headings MUST be followed by a blank line.
+
+:white_check_mark: 
 
 ```
 Heading 1
@@ -202,7 +204,7 @@ Note: Using a space between the heading and `=` is optional. Wikipedia markup us
 '''This is bold''' or '''This is a text with strong emphasis'''
 ```
 
-:x:  Old syntax:
+:x:  Old syntax (Do NOT use):
 
 ```
 __This is bold__ or __This is text with strong emphasis__
@@ -210,7 +212,7 @@ __This is bold__ or __This is text with strong emphasis__
 
 Text with Instructions (.texti) follows txt2tag and use double underlines for underline e.g.
 
-New syntax:
+:white_check_mark: New syntax:
 
 ```
 __This is underlined__ 
@@ -293,7 +295,21 @@ You can start a document with a meta data (front matter) block. Example:
 Note: You can end a document with a meta data (back matter) block too. Example:
 
 ```
+---
+See also:
+  - Comparison of document markup languages
+  - Curl (programming language)
+  - List of markup languages
+  - Markdown
+  - ReStructuredText
+  - Programming language
+  - Style language
 
+Categories:
+  - Markup languages
+  - Formal languages
+  - American inventions
+---
 ```
 
 If both are present (front matter and back matter) than they will get (deep) merged.
@@ -322,7 +338,7 @@ DRAFT - WORK-IN-PROGESS
 ![](i/cover.png)
 ```
 
-Use the new template syntax from Wikipedia markup:
+:white_check_mark: Use the new template syntax from Wikipedia markup:
 
 ``` text
 {% raw %} 
@@ -349,7 +365,7 @@ And pour the waters of the Nile••
 On every golden scale!
 ```
 
-Use the new hard-line break syntax (use `//` or `\\`):
+:white_check_mark: Use the new hard-line break syntax (use `//` or `\\`):
 
 ``` 
 How doth the little crocodile      //
