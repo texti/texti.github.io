@@ -136,6 +136,65 @@ Why?
    for markdown and meta data blocks (in YAML, JSON 1.1, etc.)
 
 
+More changes.
+
+Headings are headings. Period.
+
+You CANNOT use headings inside lists or code blocks etc. A heading always MUST start on a new line. Period.
+
+ :x:  Old (questionable) syntax:
+
+```
+- ### Big ###
+- ## Bigger ##
+- # Bigest #
+```
+
+or
+
+```
+Paragraph
+Heading
+----
+Paragraph
+```
+
+> We should not be looking at top-level = setext headings, but second-level - ones, 
+> because they're ambiguous with "thematic breaks". There are four general ways to parse this:
+>
+> - Paragraph, heading, paragraph ??
+> - Heading (with 2 lines), paragraph ??
+> - Paragraph (with 2 lines), separator, paragraph ??
+> - Paragraph (with 4 lines)
+
+(Source: [talk.commonmark.org/t/issues-we-must-resolve-before-1-0-release-8-remaining](https://talk.commonmark.org/t/issues-we-must-resolve-before-1-0-release-8-remaining/1287/14))
+
+
+
+Easy rule in Text with Instructions. Setext headings MUST be followed by a blank line.
+If you do NOT want to use blank lines use `=` for headings e.g.:
+
+```
+=Heading 1
+==Heading 2
+===Heading 3
+====Heading 4
+=====Heading 5
+======Heading 6
+```
+
+Note: Using a space between the heading and `=` is optional. Wikipedia markup uses the "compact" version without any spaces e.g. `=Markup language=` or `==Type==` etc.
+
+or
+
+```
+Heading 1
+=========
+
+Heading 2
+---------
+```
+
 
 #### Links change to Wikipedia Markup (`[[...]]` is the new `[...]`)
 
