@@ -162,17 +162,25 @@ Paragraph
 > We should not be looking at top-level = setext headings, but second-level - ones, 
 > because they're ambiguous with "thematic breaks". There are four general ways to parse this:
 >
-> - Paragraph, heading, paragraph ??
-> - Heading (with 2 lines), paragraph ??
-> - Paragraph (with 2 lines), separator, paragraph ??
+> - Paragraph, heading, paragraph
+> - Heading (with 2 lines), paragraph
+> - Paragraph (with 2 lines), separator, paragraph
 > - Paragraph (with 4 lines)
 
 (Source: [talk.commonmark.org/t/issues-we-must-resolve-before-1-0-release-8-remaining](https://talk.commonmark.org/t/issues-we-must-resolve-before-1-0-release-8-remaining/1287/14))
 
 
+Easy rule in Text with Instructions (.texti). Setext headings MUST be followed by a blank line.
 
-Easy rule in Text with Instructions. Setext headings MUST be followed by a blank line.
-If you do NOT want to use blank lines use `=` for headings e.g.:
+```
+Heading 1
+=========
+
+Heading 2
+---------
+```
+
+If you do NOT want to use blank lines after headings use `=` for headings e.g.:
 
 ```
 =Heading 1
@@ -185,23 +193,51 @@ If you do NOT want to use blank lines use `=` for headings e.g.:
 
 Note: Using a space between the heading and `=` is optional. Wikipedia markup uses the "compact" version without any spaces e.g. `=Markup language=` or `==Type==` etc.
 
-or
+
+
+#### Bold / Strong Emphasis
 
 ```
-Heading 1
-=========
-
-Heading 2
----------
+**This is bold**  or **This is a text with strong emphasis**
+'''This is bold''' or '''This is a text with strong emphasis'''
 ```
+
+:x:  Old syntax:
+
+```
+__This is bold__ or __This is text with strong emphasis__
+```
+
+Text with Instructions (.texti) follows txt2tag and use double underlines for underline e.g.
+
+New syntax:
+
+```
+__This is underlined__ 
+```
+
+and 
+
+```
+--This is strike-through--
+```
+
 
 
 #### Links change to Wikipedia Markup (`[[...]]` is the new `[...]`)
 
 Why?
 
-Markdown has no links between Markdown pages.
+Markdown has no links between Markdown pages. 
 
+- Use triple `[[[..]]]`  for intra page links also known as anchors.
+- Use double `[[..]]` for page links.
+- Use single `[..]` for "classic" (external) web links.
+
+Note:
+
+- Use `[^1 ..]` for footnotes / references
+- Use `[@see ...]` for citations / references
 
 
 #### "Generic" Inline Block
@@ -254,6 +290,15 @@ You can start a document with a meta data (front matter) block. Example:
 ```
 
 
+Note: You can end a document with a meta data (back matter) block too. Example:
+
+```
+
+```
+
+If both are present (front matter and back matter) than they will get (deep) merged.
+
+
 
 
 #### "Generic" Block and Inline
@@ -271,6 +316,8 @@ DRAFT - WORK-IN-PROGESS
 
 #### Image Links
 
+:x: Old syntax (Do NOT use):
+
 ```
 ![](i/cover.png)
 ```
@@ -279,7 +326,11 @@ Use the new template syntax from Wikipedia markup:
 
 ``` text
 {% raw %} 
-{{ File:cover.png }}
+{{ fig|cover.png }}
+
+or
+
+{{ img|cover.png }}
 {% endraw %}
 ```
 
@@ -289,6 +340,8 @@ DRAFT - WORK-IN-PROGESS
 
 #### Hard-line Breaks with End-of-Line Space Space (••\n)
 
+:x: Old syntax (Do NOT use):
+
 ``` 
 How doth the little crocodile••
 Improve his shining tail,••
@@ -296,7 +349,28 @@ And pour the waters of the Nile••
 On every golden scale!
 ```
 
-Use the new hard-line break syntax.
+Use the new hard-line break syntax (use `//` or `\\`):
+
+``` 
+How doth the little crocodile      //
+Improve his shining tail,          //
+And pour the waters of the Nile    //
+On every golden scale!
+```
+
+Or use the new verbatim (preformatted) block with triple quotes (`"""`):
+
+``` 
+"""
+How doth the little crocodile
+Improve his shining tail,
+And pour the waters of the Nile
+On every golden scale!
+"""
+``` 
+
+Note: Inside a verbatim (preformatted) block with triple quotes (`"""`)
+all formatting (e.g. bold, italics, lists, code, etc.) works as expected.
 
 
 
