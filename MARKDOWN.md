@@ -28,7 +28,7 @@ Notes:  :white_check_mark: Works.  :x: Old syntax (Do NOT use).
 :x: Intra-word emphasis with underscores does NOT work anymore.  
 
 ``` text
-print_hello_world    <!-  just regular text
+print_hello_world    <--  just regular text
 ```
 
 <!-- spelling: use italics or just italic ?? -->
