@@ -1,12 +1,12 @@
 # Markdown Cheatsheet for Text with Instructions (.texti)
 
-_Fixing (Evolving) Markdown - Deletions. Yes. Deletions. Changes. Additons._
+_Fixing (Evolving) Markdown - Deletions. Yes. Deletions. Changes. Additions._
 
 
 Design Principles
 
 - NEVER FORGET - IT'S DESIGNED FOR WRITING BY HUMANS
-  - Offer alternatives.  There's more than one way to do it. Sometimes even more alternatives is the better way e.g. see the new links alternatives - id first? yes, id second? yes - why not?, without `()` why not?, etc.).
+  - Offer alternatives.  There's more than one way to do it. Sometimes even more alternatives is the better way e.g. see the new link alternatives - id first? yes, id second? yes - why not?, without `()` why not?, etc.).
 
 
 Strict (Enterprise-y) Version
@@ -18,7 +18,7 @@ Strict (Enterprise-y) Version
 
 What's news? What's different?
 
-Notes:  :white_check_mark: Works.  :x: old syntax (Do NOT use)
+Notes:  :white_check_mark: Works.  :x: Old syntax (Do NOT use).
 
 
 ## Text Formatting
