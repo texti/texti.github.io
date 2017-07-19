@@ -242,19 +242,6 @@ Note:
 - Use `[@see ...]` for citations / references
 
 
-#### "Generic" Inline Block
-
-```
-> Note:
->
-```
-
-The "old" quotation block is now a "generic" inline block.
-
-
-DRAFT - WORK-IN-PROGESS
-
-
 
 
 ### Additions
@@ -409,7 +396,6 @@ On every golden scale!
 Or use the new verbatim (preformatted) block with triple quotes (`"""`):
 
 ``` 
-"""
 How doth the little crocodile
 Improve his shining tail,
 And pour the waters of the Nile
@@ -417,8 +403,28 @@ On every golden scale!
 """
 ``` 
 
+or use Unicode-Text-Art (`⌜`-top left corner bracket and `⌞`-bottom left corner bracket or `⌟` bootom right corner bracket). 
+(Why? Less visible and smaller than `"""`). Even works without requiring its own line for the marker.
+
+````
+⌜
+How doth the little crocodile
+Improve his shining tail,
+And pour the waters of the Nile
+On every golden scale!
+⌞
+``` 
+
+````
+⌜How doth the little crocodile
+ Improve his shining tail,
+ And pour the waters of the Nile
+ On every golden scale!⌟
+``` 
+
+
 Note: Inside a verbatim (preformatted) block with triple quotes (`"""`)
-all formatting (e.g. bold, italics, lists, code, etc.) works as expected.
+all formatting (e.g. bold, italics, lists, footnotes, code, etc.) works as expected.
 
 
 
