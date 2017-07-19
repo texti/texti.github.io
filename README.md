@@ -322,6 +322,38 @@ If both are present (front matter and back matter) than they will get (deep) mer
 
 To be done - like in HTML - generic marker for a block (div) and inline run (span).
 
+```
+:: Note :::::::::::::::::::::::::::::
+
+A paragraph. 
+
+Another paragraph.
+
+- A list item.
+- Another list item.
+
+And so on.
+
+:::::::::::::::::::::::::::::::::::::
+```
+
+Note: Use two or more double colons (`::`) with a block type name e.g. Note, Hint, Warning, Power User Box, David Says or anything.
+
+The type will use a "urlified" name / slug  e.g.
+
+- Note => `note`
+- Hint => `hint`
+- Warning => `warning` 
+- Power User Box => `power_user_box`
+- David Says => `david_says`
+
+Use two or more double colons (`::`)  to end generic marker block.
+
+or
+
+Unicode "pretty" version use corner brackets (add why? why not?)
+
+
 DRAFT - WORK-IN-PROGESS
 
 
