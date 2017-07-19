@@ -222,8 +222,9 @@ Why change `<ref>` to `[^]`?
 The idea of Texti is to be format independent - that is - Texti instructions should not look
 like html tags or latex commands, for example. Text with instructions tries to be "orthogonal" to html and latex.
 The idea is that you can easily mix and match texti with html or latex without escaping one or the other
-e.g. how do you know that `<ref>` is NOT an html tag or `<references>`? Simple, use `[^]` and `{% raw %}{{references}}{% endraw %}` 
-- if it looks like a html tag it is a html tag, if it doesn't it doesn't, that's by design :-).
+e.g. how do you know that `<ref>` is NOT an html tag or `<references>`? 
+Simple, use `[^]` and `{% raw %}{{references}}{% endraw %}` - if it looks like a html tag it is a html tag, 
+if it doesn't it doesn't, that's by design :-).
 
 
 New (Inline) References:
