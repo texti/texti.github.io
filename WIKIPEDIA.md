@@ -194,3 +194,29 @@ Reference style:
 ```
 
 
+### Categories, See also, etc.
+
+As an easier alternative use meta data (back matter) for categories, see also, etc. Example:
+
+``` text
+---
+Categories:
+  - Markup languages
+  - Formal languages
+  - American inventions
+
+See also:
+  - Comparison of document markup languages
+  - Curl (programming language)
+  - List of markup languages
+  - Markdown
+  - ReStructuredText
+  - Programming language
+  - Style language
+---
+```
+
+Using a page template, for example, you can turn your categories (automagically) into links and more.
+
+
+
