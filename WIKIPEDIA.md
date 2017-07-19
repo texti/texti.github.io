@@ -38,7 +38,7 @@ _italic text_ or
 **Additions**. Alternative Syntax
 
 ```
-__bold text__ or
+**bold text** or
 **strongly emphasized text**
 ```
 
