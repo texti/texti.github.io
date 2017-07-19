@@ -254,7 +254,7 @@ Note: The number e.g. `^1` is "symbolic", that is, it's a placeholder - you can 
 as often as you like (when generated references will get auto-numbered).
 
 
-Or use the refrence form or reference short form:
+Or use the refrence form or reference short form or use "classic" daggers (`† ‡`):
 
 
 ``` text
@@ -262,7 +262,7 @@ Or use the refrence form or reference short form:
 yada yada [^1] yada yada yada [^2][^3] yada yada
 
 
-^1: {{MerriamWebsterDictionary|markup language}}]
+^1: {{MerriamWebsterDictionary|markup language}}
 ^2: Michael Downes. [http://www.ams.org/notices/200211/comm-downes.pdf "TEX and LATEX 2e"]
 ^3: {{cite web
   |last=Bray|first=Tim|authorlink=Tim Bray
@@ -276,7 +276,7 @@ yada yada [^1] yada yada yada [^2][^3] yada yada
 
 yada yada [^] yada yada yada [^^][^^^] yada yada
 
-^:  {{MerriamWebsterDictionary|markup language}}]
+^:  {{MerriamWebsterDictionary|markup language}}
 ^^:  Michael Downes. [http://www.ams.org/notices/200211/comm-downes.pdf "TEX and LATEX 2e"]
 ^^^: {{cite web
   |last=Bray|first=Tim|authorlink=Tim Bray
@@ -286,9 +286,24 @@ yada yada [^] yada yada yada [^^][^^^] yada yada
   |date=9 April 2003
   |access-date=9 July 2015}}
 
+-or-
+
+yada yada† 
+
+†: {{MerriamWebsterDictionary|markup language}}
+
+yada yada yada†‡ yada yada
+
+†: Michael Downes. [http://www.ams.org/notices/200211/comm-downes.pdf "TEX and LATEX 2e"]
+‡: {{cite web
+  |last=Bray|first=Tim|authorlink=Tim Bray
+  |url=http://www.tbray.org/ongoing/When/200x/2003/04/09/SemanticMarkup#p-1
+  |title=On Semantics and Markup, Taxonomy of Markup
+  |website=www.tbray.org/ongoing
+  |date=9 April 2003
+  |access-date=9 July 2015}}
 {% endraw %}
 ```
-
 
 
 ### Categories, See also, etc.
