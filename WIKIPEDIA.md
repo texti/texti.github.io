@@ -193,6 +193,102 @@ Reference style:
 [1]: http://loc.gov
 ```
 
+### :x: (Inline) References
+
+:x: Old syntax (Do NOT use).
+
+
+``` text
+{% raw %}
+<ref>{{MerriamWebsterDictionary|markup language}}</ref>
+
+-or-
+
+<ref>Michael Downes. [http://www.ams.org/notices/200211/comm-downes.pdf "TEX and LATEX 2e"]</ref>
+
+-or-
+
+<ref>{{cite web|last=Bray|first=Tim|authorlink=Tim Bray
+|url=http://www.tbray.org/ongoing/When/200x/2003/04/09/SemanticMarkup#p-1
+|title=On Semantics and Markup, Taxonomy of Markup
+|website=www.tbray.org/ongoing
+|date=9 April 2003
+|access-date=9 July 2015}}</ref>
+{% endraw %}
+```
+
+Why change `<ref>` to `[^]`? 
+
+The idea of Texti is to be format independent - that is - Texti instructions should not look
+like html tags or latex commands, for example. Text with instructions tries to be "orthogonal" to html and latex.
+The idea is that you can easily mix and match texti with html or latex without escaping one or the other
+e.g. how do you know that `<ref>` is NOT an html tag or `<references>`? Simple, use `[^]` and `{% raw %}{{references}}{% endraw %}` 
+- if it looks like a html tag it is a html tag, if it doesn't it doesn't, that's by design :-).
+
+
+New (Inline) References:
+
+``` text
+{% raw %}
+[^1|{{MerriamWebsterDictionary|markup language}}]
+
+-or-
+
+[^2|Michael Downes. [http://www.ams.org/notices/200211/comm-downes.pdf "TEX and LATEX 2e"]]
+
+-or-
+
+[^3|{{cite web
+  |last=Bray|first=Tim|authorlink=Tim Bray
+  |url=http://www.tbray.org/ongoing/When/200x/2003/04/09/SemanticMarkup#p-1
+  |title=On Semantics and Markup, Taxonomy of Markup
+  |website=www.tbray.org/ongoing
+  |date=9 April 2003
+  |access-date=9 July 2015}}]
+{% endraw %}
+```
+
+Note: The number e.g. `^1` is "symbolic", that is, it's a placeholder - you can write
+`^1` `^1` `^1`
+as often as you like (when generated references will get auto-numbered).
+
+
+Or use the refrence form or reference short form:
+
+
+``` text
+{% raw %}
+yada yada [^1] yada yada yada [^2][^3] yada yada
+
+
+^1: {{MerriamWebsterDictionary|markup language}}]
+^2: Michael Downes. [http://www.ams.org/notices/200211/comm-downes.pdf "TEX and LATEX 2e"]
+^3: {{cite web
+  |last=Bray|first=Tim|authorlink=Tim Bray
+  |url=http://www.tbray.org/ongoing/When/200x/2003/04/09/SemanticMarkup#p-1
+  |title=On Semantics and Markup, Taxonomy of Markup
+  |website=www.tbray.org/ongoing
+  |date=9 April 2003
+  |access-date=9 July 2015}}
+  
+-or-
+
+yada yada [^] yada yada yada [^^][^^^] yada yada
+
+^:  {{MerriamWebsterDictionary|markup language}}]
+^^:  Michael Downes. [http://www.ams.org/notices/200211/comm-downes.pdf "TEX and LATEX 2e"]
+^^^: {{cite web
+  |last=Bray|first=Tim|authorlink=Tim Bray
+  |url=http://www.tbray.org/ongoing/When/200x/2003/04/09/SemanticMarkup#p-1
+  |title=On Semantics and Markup, Taxonomy of Markup
+  |website=www.tbray.org/ongoing
+  |date=9 April 2003
+  |access-date=9 July 2015}}
+
+{% endraw %}
+```
+
+
 
 ### Categories, See also, etc.
 
@@ -217,6 +313,4 @@ See also:
 ```
 
 Using a page template, for example, you can turn your categories (automagically) into links and more.
-
-
 
