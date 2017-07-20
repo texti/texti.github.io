@@ -222,6 +222,8 @@ and
 
 ```
 --This is strike-through--
+or
+~~This is strike-through~~
 ```
 
 
@@ -250,12 +252,30 @@ Note:
 
 ```
 # This is a comment. Where's the heading?
+
+### This is another comment.
 ```
 
 A human language without comments - is that human or possible?
-Let's welcome `#` (+space) for single-line comments.
+Let's welcome `#` (+space) for single-line comments. Or `####` (+space).
 
 Note: The comment marker is `#` must be followed by a space, that is, `#1 or #77` is just regular text.
+
+
+More comments:
+
+For backwords compatibility HTML comments are supported too:
+
+```
+<!-- This is a comment. Where's the heading? -->
+```
+
+Todo - Also add LaTex comments by default? Why? Why not?
+
+```
+% This is a comment. Where's the heading?
+%%  This is another comment.
+```
 
 
 
@@ -349,7 +369,7 @@ or two or three lines - start all lines with double colons (`::`):
 
 ```
 ::::: Note ::::::::::::::::::
-:: Keep it simple..
+:: Keep it simple.
 ```
 
 
@@ -419,7 +439,7 @@ On every golden scale!
 
 Or use the new verbatim (preformatted) block with triple quotes (`"""`):
 
-``` 
+```
 """
 How doth the little crocodile
 Improve his shining tail,
@@ -431,7 +451,7 @@ On every golden scale!
 or use Unicode-Text-Art (`⌜`-top left corner bracket and `⌞`-bottom left corner bracket or `⌟` bootom right corner bracket). 
 (Why? Less visible and smaller than `"""`). Even works without requiring its own line for the marker.
 
-````
+```
 ⌜
 How doth the little crocodile
 Improve his shining tail,
@@ -451,6 +471,34 @@ On every golden scale!
 Note: Inside a verbatim (preformatted) block with triple quotes (`"""`)
 all formatting (e.g. bold, italics, lists, footnotes, code, etc.) works as expected.
 
+
+
+## No Formatting Blocks
+
+What markers to use for `<nowiki>..<nowiki>`?
+
+- Use `{- .. -}`  - Why? Why not?
+- Use `/* .. */`  - Why? Why not?
+- Use three symbols one its own line - why? why not?
+  - `>>> .. <<<`
+  - `{{{ .. }}}`  --> to easy to confuse with `{{ .. }}` 
+  - others ???
+
+WORK-IN-PROGESS
+
+
+## Separators / Horizontal Rulers
+
+A dash-three-times (`---`) is no longer a separator (horizontal ruler). To avoid confusion `---` 
+is reserved for spliting documents into meta data blocks and text blocks.
+
+Use `* * *` or `- - -` or `-=-` or `_ _ _` and so on. Or use dash-five-times `-----` etc.
+
+
+
+
+
+{% include_relative samples/README.md %}
 
 
 ## Appendix
