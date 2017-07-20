@@ -477,14 +477,26 @@ all formatting (e.g. bold, italics, lists, footnotes, code, etc.) works as expec
 
 What markers to use for `<nowiki>..<nowiki>`?
 
-- Use `{- .. -}`  - Why? Why not?
-- Use `/* .. */`  - Why? Why not?
-- Use three symbols one its own line - why? why not?
-  - `>>> .. <<<`
-  - `{{{ .. }}}`  --> to easy to confuse with `{{ .. }}` 
-  - others ???
+Use `!!!` e.g.:
+
+```
+!!!
+ ...
+!!!
+```
+
+Or use "inline" too e.g.:
+
+```
+some text !!!..!!!
+```
+
+Allow just two `!!` too - why? why not?
+
+Any better alternatives?
 
 WORK-IN-PROGESS
+
 
 
 ## Separators / Horizontal Rulers
