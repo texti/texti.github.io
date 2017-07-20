@@ -8,13 +8,13 @@
 
 .texti Source:
 
-- [samples/Markup_language.texti.txt](https://github.com/texti/texti.github.io/blob/master/Markup_language.texti.txt)
+- [samples/Markup_language.texti.txt](https://github.com/texti/texti.github.io/blob/master/samples/Markup_language.texti.txt)
 
 (Auto-)Generated Formats:
 
-- [samples/Markup_language.md.txt](https://github.com/texti/texti.github.io/blob/master/Markup_language.md.txt) - Markdown
-- [samples/Markup_language.latex.txt](https://github.com/texti/texti.github.io/blob/master/Markup_language.latex.txt) - LaTeX
-- [samples/Markup_language.html](https://github.com/texti/texti.github.io/blob/master/Markup_language.html) - Hypertext Markup Language (HTML)
+- [samples/Markup_language.md.txt](https://github.com/texti/texti.github.io/blob/master/samples/Markup_language.md.txt) - Markdown
+- [samples/Markup_language.latex.txt](https://github.com/texti/texti.github.io/blob/master/samples/Markup_language.latex.txt) - LaTeX
+- [samples/Markup_language.html](https://github.com/texti/texti.github.io/blob/master/samples/Markup_language.html) - Hypertext Markup Language (HTML)
 
 
 (Source: [Markup language @ Wikipedia](https://en.wikipedia.org/wiki/Markup_language),
