@@ -326,19 +326,43 @@ And so on.
 
 Note: Use two or more double colons (`::`) with a block type name e.g. Note, Hint, Warning, Power User Box, David Says or anything.
 
-The type will use a "urlified" name / slug  e.g.
+The type will use a "urlified" name / slug - the optinal trailing (`:`) gets skipped and all letters will get lowercased e.g.:
 
-- Note => `note`
-- Hint => `hint`
+- Note, NOTE, Note: => `note`
+- Hint, HINT, Hint:  => `hint`
 - Warning => `warning` 
 - Power User Box => `power_user_box`
 - David Says => `david_says`
+
 
 Use two or more double colons (`::`)  to end generic marker block.
 
 or
 
-Unicode "pretty" version use corner brackets (add why? why not?)
+Use a "compact" version (requires a trailing colon (`:`) after the box type label e.g. `Note:`):
+
+```
+:: Note: Keep it simple.
+```
+
+or two or three lines - start all lines with double colons (`::`):
+
+```
+::::: Note ::::::::::::::::::
+:: Keep it simple..
+```
+
+
+
+or
+
+Unicode "pretty" version use box drawing character:
+
+```
+┌─ Note ────────────┐ 
+│ Keep it simple.   │
+└───────────────────┘
+```
 
 
 DRAFT - WORK-IN-PROGESS
@@ -396,6 +420,7 @@ On every golden scale!
 Or use the new verbatim (preformatted) block with triple quotes (`"""`):
 
 ``` 
+"""
 How doth the little crocodile
 Improve his shining tail,
 And pour the waters of the Nile
@@ -415,7 +440,7 @@ On every golden scale!
 ⌞
 ``` 
 
-````
+```
 ⌜How doth the little crocodile
  Improve his shining tail,
  And pour the waters of the Nile
