@@ -1,9 +1,12 @@
-[Text with Instructions (.texti) @ GitHub](https://github.com/texti)
-
-
 # Text with Instructions (.texti) - Structured Documents in Text with Formatting Conventions
 
 _The Best of Markdown, Wikipedia Markup, LaTeX & Friends - All Together Now_
+
+
+<!--
+   todo/fix:   add github banner with an include - why? why not?
+     [Text with Instructions (.texti) @ GitHub](https://github.com/texti)
+-->
 
 
 
